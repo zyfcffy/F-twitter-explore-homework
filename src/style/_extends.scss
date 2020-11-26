@@ -1,0 +1,51 @@
+.menu {
+  > ul {
+    display: flex;
+
+    > li {
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.btn-style {
+  .header-login-button {
+    @include btn-variant(
+      $header-btn-width,
+      $primary-color,
+      $body-bg,
+      $primary-color
+    );
+  }
+
+  .header-register-button {
+    @include btn-variant(
+      $header-btn-width,
+      $white,
+      $primary-color,
+      $primary-color
+    );
+  }
+
+  .content-login-button {
+    @include btn-variant(
+      $content-btn-width,
+      $primary-color,
+      $body-bg,
+      $primary-color
+    );
+  }
+
+  .content-register-button {
+    @include btn-variant(
+      $content-btn-width,
+      $white,
+      $primary-color,
+      $primary-color
+    );
+  }
+}

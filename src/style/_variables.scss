@@ -16,3 +16,13 @@ $heading-color: $white !default;
 $link-color: $gray !default;
 $link-hover-color: darken($link-color, 15%) !default;
 $border-color: rgb(61, 84, 102);
+
+$border-style: 1px solid $border-color;
+
+$btn-border-radius: 20px;
+
+$header-padding-x: 30px;
+$header-padding-y: 60px;
+
+$header-btn-width: 80px;
+$content-btn-width: 100%;

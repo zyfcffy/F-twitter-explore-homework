@@ -12,23 +12,23 @@
     <h1>Twitter</h1>
     <nav>
         <ul>
-            <li>登录</li>
-            <li>注册</li>
+            <li><button class="header-login-button">登录</button></li>
+            <li><button class="header-register-button">注册</button></li>
         </ul>
     </nav>
 </header>
 
 <main class="container">
-    <section>
-        <h1>查看世界上正在发生的事情</h1>
+    <section class="content">
+        <h1 class="title">查看世界上正在发生的事情</h1>
         <label for="name">电话、邮件地址或用户名</label>
-        <input type="text" id="name">
+        <input type="text" id="name" class="content-input">
         <label for="password">密码</label>
-        <input type="text" id="password">
-        <a href="#">忘记密码?</a>
-        <button>登录</button>
-        <span>或</span>
-        <button>注册</button>
+        <input type="text" id="password" class="content-input">
+        <a href="#" class="forget-password">忘记密码?</a>
+        <button class="content-login-button">登录</button>
+        <span class="content-link">或</span>
+        <button class="content-register-button">注册</button>
     </section>
 </main>
 <script src="src/app.js"></script>

@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-top: 100px;
+
+  .content {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    min-height: 50vh;
+    border-radius: 10px;
+    border: $border-style;
+    padding: 50px;
+  }
+
+  .title {
+    align-self: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .content-input {
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: $border-style;
+  }
+
+  .forget-password {
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  .content-link {
+    align-self: center;
+  }
+
+  @extend .btn-style;
+}

@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: $header-padding-x $header-padding-y;
+  border-bottom: $border-style;
+  > nav {
+    @extend .menu;
+    @extend .btn-style;
+  }
+}
